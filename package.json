@@ -1,10 +1,10 @@
 {
   "name": "@anagarango/styled-components-starter-pack",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "starting pack of styled-components so its not necessary to repeatedly copy and paste the same file over and over again",
-  "main": "globals.js",
+  "main": "src/globals.js",
+  "files":["src/**/*"],
   "scripts": {
-    "build":"webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/anagarango/styled-components-starter-pack/issues"
   },
   "homepage": "https://github.com/anagarango/styled-components-starter-pack#readme",
-  "dependencies": {
+  "peerDependencies": {
     "styled-components": "^6.0.7"
   }
 }
